@@ -321,17 +321,19 @@ footer>div {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background: url('../images/back3.jpg') fixed;
+        background: url('../images/back1.jpg') fixed;
         /* opacity:0.7; */
         background-size: 100% 100%;
     }
 }
 
+
+
 .skills>.projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url('../images/back3.jpg') fixed;
+    background: url('../images/back1.jpg') fixed;
     /* opacity:0.7; */
     background-size: 100% 100%;
 }
