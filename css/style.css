@@ -104,7 +104,8 @@ main aside .banner article {
     padding: 10%;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
-    text-align: center;
+    text-align:left;
+    text-transform: capitalize; 
 }
 
 main aside .banner.experience article {
@@ -223,6 +224,13 @@ main aside .banner.experience article span {
 }
 
 
+
+#work{
+    border:none;
+     padding:0px ; 
+    margin:0px
+}
+
 /* css for footer */
 
 footer {
@@ -298,6 +306,11 @@ footer>div {
     main {
         font-size: 10px;
     }
+
+
+    .hero#work{
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -325,6 +338,13 @@ footer>div {
         /* opacity:0.7; */
         background-size: 100% 100%;
     }
+
+
+    #id{
+        display:none;
+    }
+
+
 }
 
 
@@ -337,3 +357,4 @@ footer>div {
     /* opacity:0.7; */
     background-size: 100% 100%;
 }
+
