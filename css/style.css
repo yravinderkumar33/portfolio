@@ -124,7 +124,6 @@ main aside .banner.experience article {
     /* border:1px solid white; */
     border-radius: 10%;
     padding: 10%;
-    font-family: ;
     font-size: 15px;
     text-align: justify;
     font-family: 'Philosopher', sans-serif;
@@ -194,7 +193,7 @@ main aside .banner.experience article span {
 
 .interests:hover {
     background: rgba(255, 153, 0, 0.5);
-    border: 5x solid green;
+    border: 5px solid green;
 }
 
 .projects>article>.article_body {
