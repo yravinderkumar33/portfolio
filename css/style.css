@@ -4,14 +4,20 @@
     margin: 0px;
 }
 
+/* css for header */
+
 header {
-    height: 80px;
+    height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
     bottom: auto;
     z-index: 1000;
 }
+
+
+
+/* navigation bar */
 
 .navbar {
     display: flex;
@@ -42,6 +48,7 @@ header {
 
 .navbar_icons li {
     text-decoration: none;
+    text-align:center;
     display: inline;
     flex: 1;
 }
@@ -64,8 +71,12 @@ header {
     border-radius: 20%;
 }
 
+/* navigation bar ends here */
+
+
+/* main css starts */
 main {
-    margin-top: 80px;
+    margin-top: 50px;
     background: rgb(47, 153, 148);
     display: flex;
     flex-direction: column;
@@ -87,6 +98,7 @@ main {
 .hero figure {
     flex: 3;
     background: url('../images/me.png') no-repeat center;
+    background-size: 100% 100%;
 }
 
 main aside {
@@ -102,9 +114,9 @@ main aside .banner article {
     border: 1px solid white;
     border-radius: 10%;
     padding: 10%;
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    text-align:left;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 15px;
+    text-align:justify;
     text-transform: capitalize; 
 }
 
@@ -114,7 +126,7 @@ main aside .banner.experience article {
     padding: 10%;
     font-family: ;
     font-size: 15px;
-    text-align: left;
+    text-align: justify;
     font-family: 'Philosopher', sans-serif;
 }
 
@@ -185,7 +197,7 @@ main aside .banner.experience article span {
     border: 5x solid green;
 }
 
-.projects>article>.body {
+.projects>article>.article_body {
     flex: 1;
     height: 20%;
     padding: 20px;
@@ -194,28 +206,29 @@ main aside .banner.experience article span {
     font-size: 20px;
 }
 
-.projects>article>.footer {
+.projects>article>.article_footer {
     flex: 1;
     height: 60%;
     text-align: center;
     /* font-family: 'Pacifico', cursive; */
     font-size: 15px;
     font-weight: bold;
+    text-align: justify;
 }
 
-#all_projects {
+.all_projects {
     display: flex;
     padding: 15px;
 }
 
-#all_projects>button {
-    margin: auto;
+.all_projects>button {
+    margin: auto;   
     padding: 10px 50px;
     background: black;
     color: white;
 }
 
-#all_projects>button:hover {
+.all_projects>button:hover {
     margin: auto;
     padding: 10px 50px;
     background: black;
@@ -231,8 +244,20 @@ main aside .banner.experience article span {
     margin:0px
 }
 
-/* css for footer */
+.skills>.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url('../images/back1.jpg') fixed;
+    /* opacity:0.7; */
+    background-size: 100% 100%;
+}
 
+
+/* main ends here */
+
+
+/* footer css */
 footer {
     height: 100px;
     background: black;
@@ -246,6 +271,12 @@ footer>div {
     color: white;
     text-align: center;
 }
+
+/* footer ends here */
+
+
+
+/* media query for <=600px */
 
 @media only screen and (max-width: 600px) {
     .profile_picture {
@@ -287,7 +318,7 @@ footer>div {
     .navbar_icons li {
         text-decoration: none;
         display: inline;
-        padding: 0px 15px;
+        padding: 0px 5px;
         color: yellow;
         flex: 1;
         text-align: center;
@@ -313,6 +344,10 @@ footer>div {
     }
 }
 
+/* media query ends here */
+
+
+/* media query for <=500px */
 @media only screen and (max-width: 500px) {
     .navbar_icons {
         display: flex;
@@ -325,7 +360,7 @@ footer>div {
     }
     .navbar_icons>li {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     footer {
         font-size: 10px;
@@ -345,16 +380,5 @@ footer>div {
     }
 
 
-}
-
-
-
-.skills>.projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: url('../images/back1.jpg') fixed;
-    /* opacity:0.7; */
-    background-size: 100% 100%;
 }
 

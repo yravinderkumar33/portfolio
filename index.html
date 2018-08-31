@@ -1,3 +1,18 @@
+<!-- 
+
+    ##############################################################
+
+    name of the website - portfolio
+    author - ravinder kumar 
+
+    dated : 29 august 2018 
+
+    Description :- it's my own portfolio website 
+
+
+    ###############################################################
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,10 +20,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- authors name - ravinder kumar -->
     <meta name="author" content="ravinder kumar">
 
     <title>Ravinder Kumar</title>
+    <link rel="icon" type="image/ico" href="images/developer.png" />
 
     <!-- using google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -17,12 +33,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+
+
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body style="display:flex; flex-direction:column;flex-wrap: wrap">
 
+
+    <!-- header and navigation bar -->
     <header>
         <nav class="navbar">
             <div class="profile_picture" onclick="window.print()">
@@ -40,8 +60,9 @@
         </nav>
     </header>
 
+    <!-- main section  -->
     <main>
-
+        <!-- hero section -->
         <section class="hero" id="1">
 
             <aside>
@@ -57,12 +78,13 @@
                         management from University of Petroleum and Energy Studies.
 
                     </article>
-                </div>
+                </div>  
             </aside>
             <figure>
             </figure>
         </section>
 
+        <!-- this section shows the projects which i have done  -->
         <section class="main_container" id="3">
 
             <section style="  font-family: 'Dancing Script', cursive; text-align:center ; font-size:30px ; padding:15px; border-bottom:1px solid black">I
@@ -75,10 +97,10 @@
                         <img src="../images/developer.png" alt="">
 
                     </div>
-                    <div class="body">
+                    <div class="article_body">
                         Lifi based smart homes
                     </div>
-                    <div class="footer"> Proposed model is the integration of Li-Fi technology with IOT to create a smart
+                    <div class="article_footer"> Proposed model is the integration of Li-Fi technology with IOT to create a smart
                         home automation system.</div>
                 </article>
 
@@ -87,12 +109,12 @@
 
                         <img src="../images/developer.png" alt="">
                     </div>
-                    <div class="body">
+                    <div class="article_body">
                         livedisqus
 
                     </div>
 
-                    <div class="footer"> Project includes development of a fully functional dynamic website for students
+                    <div class="article_footer"> Project includes development of a fully functional dynamic website for students
                         of our university which assists them in their academics .</div>
                 </article>
 
@@ -103,23 +125,25 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         universal lanaguage learning system
 
                     </div>
 
-                    <div class="footer"> Project includes development of a handheld device with a smart interface and optimized
+                    <div class="article_footer"> Project includes development of a handheld device with a smart interface and optimized
                         voice based search engine. Supports 50+ languages..</div>
                 </article>
 
             </section>
 
-            <section id="all_projects">
+            <section class="all_projects">
                 <button onclick="progress()">VIEW ALL PROJECTS &nbsp;&nbsp; <i class="fas fa-project-diagram"></i></button>
             </section>
 
         </section>
+        <!-- section ends here -->
 
+        <!-- this section shows the experience which i have -->
         <section class="hero">
 
             <aside style="order:2">
@@ -157,6 +181,9 @@
 
         </section>
 
+        <!-- section ends here -->
+
+        <!-- this section shows my skills - programming languages which i am fammiliar with -->
         <section class="main_container skills" id="4">
 
             <section style="  font-family: 'Dancing Script', cursive; text-align:center ; font-size:30px ; padding:15px; border-bottom:1px solid black">
@@ -170,7 +197,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         CCNA
                     </div>
 
@@ -183,7 +210,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         java full stack developer
 
                     </div>
@@ -197,7 +224,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         Spring , Hibernate
 
                     </div>
@@ -211,7 +238,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         IT Infrastructure management
 
                     </div>
@@ -225,7 +252,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         CCNA
                     </div>
 
@@ -238,7 +265,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         java full stack developer
 
                     </div>
@@ -250,12 +277,17 @@
             </section>
 
 
-            <section id="all_projects">
+            <section class="all_projects">
                 <button onclick="progress()">VIEW ALL SKILLS &nbsp;&nbsp; <i class="fas fa-project-diagram"></i></button>
             </section>
 
         </section>
 
+        <!-- section ends here -->
+
+
+
+        <!-- this section shows my education background and experience -->
         <section class="hero" id="2">
 
             <aside style="order:1">
@@ -307,6 +339,9 @@
 
         </section>
 
+        <!-- section ends here -->
+
+        <!-- this section shows my skills -->
         <section class="main_container skills" id="5">
 
             <section style="  font-family: 'Dancing Script', cursive; text-align:center ; font-size:30px ; padding:15px; border-bottom:1px solid black">
@@ -321,7 +356,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         stackroute
                     </div>
 
@@ -334,7 +369,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         niit
 
                     </div>
@@ -348,7 +383,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         Microsoft
 
                     </div>
@@ -362,7 +397,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         google
                     </div>
 
@@ -375,7 +410,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         Bill Gates
                     </div>
 
@@ -388,7 +423,7 @@
 
                     </div>
 
-                    <div class="body">
+                    <div class="article_body">
                         CISCO
 
                     </div>
@@ -397,54 +432,61 @@
 
             </section>
 
+            <!-- section ends here -->
+
         </section>
 
 
+        <!-- this section shows my live work -- www.livedisqus.in -->
         <section class="main_container skills">
 
-            <section style="  font-family: 'Dancing Script', cursive; text-align:center ; font-size:30px ; padding:15px; border-bottom:1px solid black">
-                My Work -  <a target="_blank" href="http://www.livedisqus.in" >http://www.livedisqus.in </a></section>
+            <section style="font-family: 'Dancing Script', cursive; text-align:center ; font-size:25px ; border-bottom:1px solid black ;" >
+                My Work - <a  style="text-decoration: none;" target="_blank" href="http://www.livedisqus.in">http://www.livedisqus.in </a></section>
 
         </section>
 
-        <section class="hero" id="work"> 
+        <section class="hero" id="work">
 
             <aside>
-
-                <div class="banner" style="padding:0px ; height:1000px ; flex:3;">
+                <div class="banner" style="padding:0px ; height:1000px ; flex:2;">
                     <article style="height:100%; width:100%">
-                        <iframe src="http://www.livedisqus.in/" frameborder="0" style="width:100% ; height:100%"></iframe>
+                        <iframe src="http://www.livedisqus.in/"  style="width:100% ; height:100%"></iframe>
                     </article>
                 </div>
             </aside>
-
-
-
         </section>
 
     </main>
 
+    <!-- main sections ends here -->
+
+
+    <!-- this  is the footer section -->
     <footer>
 
         <div>© 2018 Ravinder Kumar. All rights reserved. Full stack Developer @ StackRoute </div>
         <div>Yravinderkumar33@gmail.com (+91 - 7060325305)</div>
         <div>
+            <!-- font awesome icons are used here -->
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-instagram"></i>
         </div>
 
     </footer>
+    <!-- footer ends here -->
 
 </body>
+<!-- body ends here -->
 
 
-
+<!-- javascripts -->
 <script>
 
     function progress() {
         alert("this function is still in progress");
     }
 </script>
+<!-- javascripts ends here -->
 
 </html>
